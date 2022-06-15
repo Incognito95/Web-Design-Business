@@ -61,14 +61,6 @@ h6,
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
 
 /*--------------------------------------------------------------
 # Header
@@ -115,7 +107,7 @@ h6,
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -238,7 +230,7 @@ h6,
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: white;
@@ -770,6 +762,7 @@ section {
   bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -857,11 +850,9 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #eb5d1e;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  font-weight: 600;
   padding-left: 25px;
   cursor: pointer;
   color: #c54811;
